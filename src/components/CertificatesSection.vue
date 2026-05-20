@@ -2,6 +2,7 @@
     <section id="certificates" class="section certificates" data-aos="fade-up">
         <div class="section-header">
             <p class="section-tag">Certificates</p>
+
             <h2>Certificados & Formação</h2>
 
             <p>
@@ -10,13 +11,29 @@
             </p>
         </div>
 
-        <div class="certificates-grid">
-            <article v-for="certificate in certificates" :key="certificate.title" class="certificate-card">
-                <p class="certificate-year">{{ certificate.year }}</p>
+        <div class="certificates-list">
+            <article v-for="certificate in certificates" :key="certificate.title" class="certificate-item">
+                <div class="certificate-content">
 
-                <h3>{{ certificate.title }}</h3>
+                    <p class="certificate-year">
+                        {{ certificate.year }}
+                    </p>
 
-                <p>{{ certificate.organization }}</p>
+                    <h3>
+                        {{ certificate.title }}
+                    </h3>
+
+                    <p class="certificate-organization">
+                        {{ certificate.organization }}
+                    </p>
+
+                    <p class="certificate-description">
+                        {{ certificate.description }}
+                    </p>
+
+                </div>
+
+                <img :src="certificate.image" :alt="certificate.title" class="certificate-image" />
             </article>
         </div>
     </section>
