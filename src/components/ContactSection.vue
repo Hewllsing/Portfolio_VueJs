@@ -41,40 +41,12 @@
 </template>
 
 <script setup>
-import { reactive, ref } from 'vue'
+import { useContactForm } from '../scripts/contactSection.js'
 
-const form = reactive({
-    name: '',
-    email: '',
-    message: ''
-})
-
-const errorMessage = ref('')
-const successMessage = ref('')
-
-const sendMessage = () => {
-    errorMessage.value = ''
-    successMessage.value = ''
-
-    if (!form.name || !form.email || !form.message) {
-        errorMessage.value = 'Preenche todos os campos antes de enviar.'
-        return
-    }
-
-    const subject = `Contacto do portefólio - ${form.name}`
-
-    const body = `
-Nome: ${form.name}
-Email: ${form.email}
-
-Mensagem:
-${form.message}
-  `
-
-    window.location.href = `mailto:leonardo23s.pt@gmail.com?subject=${encodeURIComponent(
-        subject
-    )}&body=${encodeURIComponent(body)}`
-
-    successMessage.value = 'A abrir o teu cliente de email...'
-}
+const {
+    form,
+    errorMessage,
+    successMessage,
+    sendMessage
+} = useContactForm()
 </script>

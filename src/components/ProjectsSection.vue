@@ -2,7 +2,9 @@
     <section id="projects" class="section projects" data-aos="fade-up">
         <div class="section-header">
             <p class="section-tag">Projects</p>
+
             <h2>Projetos em destaque</h2>
+
             <p>
                 Alguns projetos desenvolvidos durante a minha formação, prática pessoal
                 e evolução como desenvolvedor.
@@ -22,8 +24,12 @@
 
                 <div>
                     <p class="project-label">Projeto</p>
+
                     <h3>{{ project.title }}</h3>
-                    <p class="project-description">{{ project.description }}</p>
+
+                    <p class="project-description">
+                        {{ project.description }}
+                    </p>
                 </div>
 
                 <div class="tech-list">
@@ -33,7 +39,9 @@
                 </div>
 
                 <div class="project-links">
-                    <a :href="project.github" target="_blank">GitHub</a>
+                    <a :href="project.github" target="_blank">
+                        GitHub
+                    </a>
 
                     <a v-if="project.demo" :href="project.demo" target="_blank">
                         Demo
@@ -45,23 +53,11 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
-import { projects } from '../data/projects'
+import { useProjectsSection } from '../scripts/projectsSection.js'
 
-const selectedFilter = ref('Todos')
-
-const filters = computed(() => {
-    const technologies = projects.flatMap((project) => project.technologies)
-    return ['Todos', ...new Set(technologies)]
-})
-
-const filteredProjects = computed(() => {
-    if (selectedFilter.value === 'Todos') {
-        return projects
-    }
-
-    return projects.filter((project) =>
-        project.technologies.includes(selectedFilter.value)
-    )
-})
+const {
+    selectedFilter,
+    filters,
+    filteredProjects
+} = useProjectsSection()
 </script>
