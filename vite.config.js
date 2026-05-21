@@ -10,7 +10,7 @@ export default defineConfig({
     vueDevTools(),
   ],
 
-  base: '/Portfolio_VueJs/',
+  base: './',
 
   resolve: {
     alias: {
