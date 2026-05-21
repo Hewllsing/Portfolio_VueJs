@@ -10,6 +10,6 @@ const app = createApp(App)
 app.mount('#app')
 
 AOS.init({
-  duration: 1000,
-  once: true
+    duration: 1000,
+    once: true
 })

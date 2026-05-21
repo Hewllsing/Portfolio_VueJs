@@ -1,7 +1,7 @@
 <template>
     <header class="navbar">
         <a href="#home" class="logo">
-            <img src="/public/images/logotipo.png" alt="Logo" class="logo-image" />
+            <img src="/public/images/projects/logotipo.png" alt="Logo" class="logo-image" />
             Leonardo Souza
             <span>.</span>
         </a>
