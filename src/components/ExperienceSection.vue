@@ -33,7 +33,7 @@
                     </p>
                 </div>
 
-                <img src="/images/experience/navarra.png" alt="IEFP" class="timeline-logo" />
+                <img src="/images/experience/iefp.png" alt="IEFP" class="timeline-logo" />
             </article>
 
             <article class="timeline-item">
@@ -53,7 +53,7 @@
                     </p>
                 </div>
 
-                <img src="/images/experience/navarra.png" alt="BrainBross" class="timeline-logo" />
+                <img src="/images/experience/brainbross.png" alt="BrainBross" class="timeline-logo" />
             </article>
 
             <article class="timeline-item">
@@ -65,7 +65,7 @@
                     </p>
                 </div>
 
-                <img src="/images/experience/navarra.png" alt="LB Software" class="timeline-logo" />
+                <img src="/images/experience/lbs.png" alt="LB Software" class="timeline-logo" />
             </article>
 
             <article class="timeline-item">
@@ -83,7 +83,7 @@
                     </p>
                 </div>
 
-                <img src="/images/experience/navarra.png" alt="Burgo Barbearia" class="timeline-logo" />
+                <img src="/images/experience/burgo.png" alt="Burgo Barbearia" class="timeline-logo" />
             </article>
 
             <article class="timeline-item">
@@ -97,7 +97,7 @@
                     </p>
                 </div>
 
-                <img src="/images/experience/navarra.png" alt="Supermercado Varandas" class="timeline-logo" />
+                <img src="/images/experience/varandas.png" alt="Supermercado Varandas" class="timeline-logo" />
             </article>
 
             <article class="timeline-item">
@@ -110,7 +110,7 @@
                     </p>
                 </div>
 
-                <img src="/images/experience/navarra.png" alt="Evolutime" class="timeline-logo" />
+                <img src="/images/experience/evolutime.png" alt="Evolutime" class="timeline-logo" />
             </article>
         </div>
     </section>
