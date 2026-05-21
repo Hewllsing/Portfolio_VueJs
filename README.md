@@ -1,44 +1,189 @@
-# portfolio-vue
+# 🚀 Portfolio Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Portefólio pessoal desenvolvido com Vue.js para apresentar projetos, competências, experiência e formação na área de desenvolvimento de software.
 
-## Recommended IDE Setup
+![Vue](https://img.shields.io/badge/Vue.js-3-42b883?style=for-the-badge&logo=vue.js)
+![Vite](https://img.shields.io/badge/Vite-Frontend-646cff?style=for-the-badge&logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?style=for-the-badge&logo=javascript)
+![CSS](https://img.shields.io/badge/CSS3-Modern-1572b6?style=for-the-badge&logo=css3)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 📌 Sobre o Projeto
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Este projeto foi desenvolvido com o objetivo de:
 
-## Customize configuration
+- Aprender e praticar Vue.js
+- Criar um portefólio moderno e responsivo
+- Apresentar projetos pessoais e académicos
+- Mostrar experiência, competências e certificados
+- Desenvolver uma interface moderna inspirada em portfolios profissionais
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+O projeto utiliza Vue 3 + Vite e foi construído com foco em:
 
-## Project Setup
+- Componentização
+- Responsividade
+- UI moderna
+- Animações suaves
+- Organização de código
+- Experiência do utilizador
 
-```sh
+---
+
+## ✨ Funcionalidades
+
+- ✅ Navbar responsiva
+- ✅ Hero section moderna
+- ✅ Sobre mim
+- ✅ Timeline de experiência
+- ✅ Secção de projetos
+- ✅ Filtro de tecnologias
+- ✅ Certificados
+- ✅ Formulário de contacto
+- ✅ Download de CV
+- ✅ Scroll animations (AOS)
+- ✅ Background animado com códigos
+- ✅ Mouse glow effect
+- ✅ Back to top button
+- ✅ Design responsivo
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Front-End
+- Vue.js 3
+- Vite
+- JavaScript
+- CSS3
+
+### Bibliotecas
+- AOS (Animate On Scroll)
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+│
+├── components/
+│   ├── AboutSection.vue
+│   ├── AppFooter.vue
+│   ├── AppNavbar.vue
+│   ├── BackToTop.vue
+│   ├── CertificatesSection.vue
+│   ├── CodeBackground.vue
+│   ├── ContactSection.vue
+│   ├── ExperienceSection.vue
+│   ├── HeroSection.vue
+│   └── ProjectsSection.vue
+│
+├── data/
+│   ├── certificates.js
+│   └── projects.js
+│
+├── App.vue
+├── main.js
+└── style.css
+```
+
+---
+
+## 📸 Preview
+
+### Home
+- Hero section moderna
+- Stack tecnológica
+- Background animado
+
+### Projects
+- Cards modernos
+- Filtros por tecnologia
+- Links para GitHub
+
+### Contact
+- Formulário funcional
+- Download de CV
+- Links sociais
+
+---
+
+## 🚀 Como executar o projeto
+
+### Clonar o repositório
+
+```bash
+git clone https://github.com/Hewllsing/Portfolio_VueJs.git
+```
+
+### Entrar na pasta
+
+```bash
+cd Portfolio_VueJs
+```
+
+### Instalar dependências
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Executar o projeto
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## 🌐 Deploy
 
-### Lint with [ESLint](https://eslint.org/)
+O projeto pode ser publicado facilmente em:
 
-```sh
-npm run lint
-```
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+## 📚 Aprendizagens
+
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
+
+- Componentização em Vue.js
+- Reactive State
+- Props e rendering dinâmico
+- Organização de projeto
+- Responsividade
+- Animações
+- Estruturação de UI moderna
+- Experiência do utilizador
+
+---
+
+## 👨‍💻 Autor
+
+### Leonardo Souza
+
+Back-End Developer em formação
+
+Tecnologias:
+- Python
+- C#
+- Java
+- JavaScript
+- SQL
+- Vue.js
+
+📧 Email:
+Leonardo23s.pt@gmail.com
+
+🔗 GitHub:
+https://github.com/Hewllsing
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de estudo, aprendizagem e portefólio pessoal.
