@@ -22,7 +22,7 @@
                     <a href="mailto:leonardo23s.pt@gmail.com">Email</a>
                     <a href="https://github.com/Hewllsing" target="_blank">GitHub</a>
                     <a href="https://www.linkedin.com/in/Ldosouza/" target="_blank">LinkedIn</a>
-                    <a href="/cv/Leonardo-Souza-CV.pdf" target="_blank">Download CV</a>
+                    <a :href="cvUrl" target="_blank">Download CV</a>
                 </div>
             </div>
 
@@ -43,6 +43,7 @@
 <script setup>
 import { useContactForm } from '../scripts/contactSection.js'
 
+const cvUrl = `${import.meta.env.BASE_URL}cv/Leonardo-Souza-CV.pdf`
 const {
     form,
     errorMessage,
