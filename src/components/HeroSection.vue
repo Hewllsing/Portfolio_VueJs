@@ -3,7 +3,7 @@
         <div class="hero-bg"></div>
 
         <div class="hero-content">
-            <p class="tag">Software Developer Jr.</p>
+            <p class="tag">Software Developer</p>
 
             <h1>
                 Olá, eu sou o
